@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07FEE6162D29B87700096291 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6152D29B87700096291 /* AppDelegate.swift */; };
+		07FEE6182D29B87700096291 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6172D29B87700096291 /* SceneDelegate.swift */; };
+		07FEE61A2D29B87700096291 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6192D29B87700096291 /* ViewController.swift */; };
+		07FEE61D2D29B87700096291 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07FEE61C2D29B87700096291 /* Base */; };
+		07FEE61F2D29B87700096291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FEE61E2D29B87700096291 /* Assets.xcassets */; };
+		07FEE6222D29B87700096291 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 07FEE6212D29B87700096291 /* Base */; };
+		07FEE62D2D29B87700096291 /* meTerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE62C2D29B87700096291 /* meTerTests.swift */; };
+		07FEE6372D29B87700096291 /* meTerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6362D29B87700096291 /* meTerUITests.swift */; };
+		07FEE6392D29B87700096291 /* meTerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE6382D29B87700096291 /* meTerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07FEE6292D29B87700096291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FEE60A2D29B87700096291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FEE6112D29B87700096291;
+			remoteInfo = meTer;
+		};
+		07FEE6332D29B87700096291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07FEE60A2D29B87700096291 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07FEE6112D29B87700096291;
+			remoteInfo = meTer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FEE6122D29B87700096291 /* meTer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meTer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FEE6152D29B87700096291 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07FEE6172D29B87700096291 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07FEE6192D29B87700096291 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07FEE61C2D29B87700096291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07FEE61E2D29B87700096291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07FEE6212D29B87700096291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07FEE6232D29B87700096291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FEE6282D29B87700096291 /* meTerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meTerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FEE62C2D29B87700096291 /* meTerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meTerTests.swift; sourceTree = "<group>"; };
+		07FEE6322D29B87700096291 /* meTerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meTerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07FEE6362D29B87700096291 /* meTerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meTerUITests.swift; sourceTree = "<group>"; };
+		07FEE6382D29B87700096291 /* meTerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meTerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07FEE60F2D29B87700096291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE6252D29B87700096291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE62F2D29B87700096291 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FEE6092D29B87700096291 = {
+			isa = PBXGroup;
+			children = (
+				07FEE6142D29B87700096291 /* meTer */,
+				07FEE62B2D29B87700096291 /* meTerTests */,
+				07FEE6352D29B87700096291 /* meTerUITests */,
+				07FEE6132D29B87700096291 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07FEE6132D29B87700096291 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07FEE6122D29B87700096291 /* meTer.app */,
+				07FEE6282D29B87700096291 /* meTerTests.xctest */,
+				07FEE6322D29B87700096291 /* meTerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07FEE6142D29B87700096291 /* meTer */ = {
+			isa = PBXGroup;
+			children = (
+				07FEE6152D29B87700096291 /* AppDelegate.swift */,
+				07FEE6172D29B87700096291 /* SceneDelegate.swift */,
+				07FEE6192D29B87700096291 /* ViewController.swift */,
+				07FEE61B2D29B87700096291 /* Main.storyboard */,
+				07FEE61E2D29B87700096291 /* Assets.xcassets */,
+				07FEE6202D29B87700096291 /* LaunchScreen.storyboard */,
+				07FEE6232D29B87700096291 /* Info.plist */,
+			);
+			path = meTer;
+			sourceTree = "<group>";
+		};
+		07FEE62B2D29B87700096291 /* meTerTests */ = {
+			isa = PBXGroup;
+			children = (
+				07FEE62C2D29B87700096291 /* meTerTests.swift */,
+			);
+			path = meTerTests;
+			sourceTree = "<group>";
+		};
+		07FEE6352D29B87700096291 /* meTerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07FEE6362D29B87700096291 /* meTerUITests.swift */,
+				07FEE6382D29B87700096291 /* meTerUITestsLaunchTests.swift */,
+			);
+			path = meTerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07FEE6112D29B87700096291 /* meTer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FEE63C2D29B87700096291 /* Build configuration list for PBXNativeTarget "meTer" */;
+			buildPhases = (
+				07FEE60E2D29B87700096291 /* Sources */,
+				07FEE60F2D29B87700096291 /* Frameworks */,
+				07FEE6102D29B87700096291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meTer;
+			productName = meTer;
+			productReference = 07FEE6122D29B87700096291 /* meTer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07FEE6272D29B87700096291 /* meTerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FEE63F2D29B87700096291 /* Build configuration list for PBXNativeTarget "meTerTests" */;
+			buildPhases = (
+				07FEE6242D29B87700096291 /* Sources */,
+				07FEE6252D29B87700096291 /* Frameworks */,
+				07FEE6262D29B87700096291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FEE62A2D29B87700096291 /* PBXTargetDependency */,
+			);
+			name = meTerTests;
+			productName = meTerTests;
+			productReference = 07FEE6282D29B87700096291 /* meTerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07FEE6312D29B87700096291 /* meTerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07FEE6422D29B87700096291 /* Build configuration list for PBXNativeTarget "meTerUITests" */;
+			buildPhases = (
+				07FEE62E2D29B87700096291 /* Sources */,
+				07FEE62F2D29B87700096291 /* Frameworks */,
+				07FEE6302D29B87700096291 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07FEE6342D29B87700096291 /* PBXTargetDependency */,
+			);
+			name = meTerUITests;
+			productName = meTerUITests;
+			productReference = 07FEE6322D29B87700096291 /* meTerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07FEE60A2D29B87700096291 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					07FEE6112D29B87700096291 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					07FEE6272D29B87700096291 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 07FEE6112D29B87700096291;
+					};
+					07FEE6312D29B87700096291 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 07FEE6112D29B87700096291;
+					};
+				};
+			};
+			buildConfigurationList = 07FEE60D2D29B87700096291 /* Build configuration list for PBXProject "meTer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07FEE6092D29B87700096291;
+			productRefGroup = 07FEE6132D29B87700096291 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07FEE6112D29B87700096291 /* meTer */,
+				07FEE6272D29B87700096291 /* meTerTests */,
+				07FEE6312D29B87700096291 /* meTerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07FEE6102D29B87700096291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FEE61F2D29B87700096291 /* Assets.xcassets in Resources */,
+				07FEE6222D29B87700096291 /* Base in Resources */,
+				07FEE61D2D29B87700096291 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE6262D29B87700096291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE6302D29B87700096291 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07FEE60E2D29B87700096291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FEE61A2D29B87700096291 /* ViewController.swift in Sources */,
+				07FEE6162D29B87700096291 /* AppDelegate.swift in Sources */,
+				07FEE6182D29B87700096291 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE6242D29B87700096291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FEE62D2D29B87700096291 /* meTerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07FEE62E2D29B87700096291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FEE6392D29B87700096291 /* meTerUITestsLaunchTests.swift in Sources */,
+				07FEE6372D29B87700096291 /* meTerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07FEE62A2D29B87700096291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FEE6112D29B87700096291 /* meTer */;
+			targetProxy = 07FEE6292D29B87700096291 /* PBXContainerItemProxy */;
+		};
+		07FEE6342D29B87700096291 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07FEE6112D29B87700096291 /* meTer */;
+			targetProxy = 07FEE6332D29B87700096291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07FEE61B2D29B87700096291 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FEE61C2D29B87700096291 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07FEE6202D29B87700096291 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07FEE6212D29B87700096291 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07FEE63A2D29B87700096291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07FEE63B2D29B87700096291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07FEE63D2D29B87700096291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meTer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07FEE63E2D29B87700096291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = meTer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07FEE6402D29B87700096291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meTer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meTer";
+			};
+			name = Debug;
+		};
+		07FEE6412D29B87700096291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meTer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meTer";
+			};
+			name = Release;
+		};
+		07FEE6432D29B87700096291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meTer;
+			};
+			name = Debug;
+		};
+		07FEE6442D29B87700096291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4SZJ32N453;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = meTer.meTerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meTer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07FEE60D2D29B87700096291 /* Build configuration list for PBXProject "meTer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FEE63A2D29B87700096291 /* Debug */,
+				07FEE63B2D29B87700096291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FEE63C2D29B87700096291 /* Build configuration list for PBXNativeTarget "meTer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FEE63D2D29B87700096291 /* Debug */,
+				07FEE63E2D29B87700096291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FEE63F2D29B87700096291 /* Build configuration list for PBXNativeTarget "meTerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FEE6402D29B87700096291 /* Debug */,
+				07FEE6412D29B87700096291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07FEE6422D29B87700096291 /* Build configuration list for PBXNativeTarget "meTerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FEE6432D29B87700096291 /* Debug */,
+				07FEE6442D29B87700096291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07FEE60A2D29B87700096291 /* Project object */;
+}
